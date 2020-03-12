@@ -1,3 +1,13 @@
 import React from "react"
+// import PublicTemplate from "./../templates/public"
+import Hero from "./../components/Hero"
 
-export default () => <div>Hello world!</div>
+const Index = () => {
+  return (
+    <div>
+      <Hero>POW! - A privacy-first period tracker</Hero>
+    </div>
+  )
+}
+
+export default Index
